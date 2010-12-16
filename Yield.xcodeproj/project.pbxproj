@@ -10,7 +10,6 @@
 		52070E0E12BA851E00016F32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52070E0D12BA851E00016F32 /* Foundation.framework */; };
 		8DD76F770486A8DE00D96B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F790486A8DE00D96B5E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AB6884FE841BABC02AAC07 /* CoreFoundation.framework */; };
-		8DD76F7C0486A8DE00D96B5E /* Yield.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E970290921104C91782 /* Yield.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,7 +19,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				8DD76F7C0486A8DE00D96B5E /* Yield.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -32,7 +30,6 @@
 		52070E0D12BA851E00016F32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		52070F4312BA9E9F00016F32 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		8DD76F7E0486A8DE00D96B5E /* Yield */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Yield; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6859E970290921104C91782 /* Yield.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Yield.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +85,6 @@
 		C6859E96029091FE04C91782 /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
-				C6859E970290921104C91782 /* Yield.1 */,
 			);
 			name = Documentation;
 			sourceTree = "<group>";
